@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <video autoPlay muted loop playsinline>
+      <video autoPlay muted loop playsinline = "true" disablePictureInPicture = "true">
         <source src={video} type="video/mp4"/>
       </video>
       <h1 className='heading'> </h1>
