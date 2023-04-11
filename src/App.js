@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <video src={video} autoPlay muted loop></video>
+      <video src={video} autoPlay muted loop playsinline></video>
       <h1 className='heading'> </h1>
       <h2 className='boring'>{boring}</h2>
       <button className='btn' onClick={fetchData}>Жми на конпку</button>
